@@ -4,16 +4,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-    /* Add background image */
-    background-image: url('background-image.jpg'); /* Replace with the path to your background image */
+    background-image: url('background-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #333; /* Adjust text color for better readability on the background image */
+    color: #333;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Use rgba for a semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -39,16 +38,16 @@ section {
     padding: 20px;
 }
 
-/* Add styles for images */
-img {
+/* Add styles for images in specific sections */
+section img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto; /* Adjust the margin as needed */
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7); /* Use rgba for a semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
     padding: 10px;
