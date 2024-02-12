@@ -4,10 +4,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    /* Add background image */
+    background-image: url('background-image.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333; /* Adjust text color for better readability on the background image */
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Use rgba for a semi-transparent background */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -33,8 +39,16 @@ section {
     padding: 20px;
 }
 
+/* Add styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Use rgba for a semi-transparent background */
     color: #fff;
     text-align: center;
     padding: 10px;
